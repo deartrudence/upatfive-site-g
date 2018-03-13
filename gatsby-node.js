@@ -9,7 +9,7 @@ exports.createPages = ({ graphql, boundActionCreators }) => {
 
   return new Promise((resolve, reject) => {
     const pages = []
-    const blogPost = path.resolve("./src/templates/blog-post.js")
+    const CaseStudy = path.resolve("./src/templates/case-study.js")
     resolve(
       graphql(
         `
@@ -31,11 +31,11 @@ exports.createPages = ({ graphql, boundActionCreators }) => {
           reject(result.errors)
         }
 
-        // Create blog posts pages.
+        // Create Case Study pages.
         _.each(result.data.allMarkdownRemark.edges, edge => {
           createPage({
             path: edge.node.frontmatter.path,
-            component: blogPost,
+            component: CaseStudy,
             context: {
               path: edge.node.frontmatter.path,
             },

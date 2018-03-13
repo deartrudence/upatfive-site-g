@@ -1,7 +1,9 @@
 ---
-title: My Second Post!
+title: Generating content through integrated social media
+client: WWF
 date: "2015-05-06T23:46:37.121Z"
-path: "/my-second-post/"
+path: "/content-integrated-social-media/"
+hero: './pineapple-7.jpg'
 ---
 
 Wow! I love blogging so much already.

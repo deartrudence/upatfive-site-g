@@ -1,7 +1,9 @@
 ---
-title: Hello World
+title: Custom Shopify Development & Application
+client: FBM Canada 2020
 date: "2015-05-01T22:12:03.284Z"
-path: "/hello-world/"
+path: "/custom-shopify-app-development/"
+hero: './pineapple-5.jpg'
 ---
 
 This is my first post on my new fake blog! How exciting!

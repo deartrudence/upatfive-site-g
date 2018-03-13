@@ -1,0 +1,12 @@
+.client-list-item {
+	text-transform: uppercase;
+}
+.client-list-item span {
+	font-weight: bold;
+	text-transform: initial;
+}
+.client-list-item a{
+	text-decoration: none;
+	color: black;
+
+}
