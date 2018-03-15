@@ -8,7 +8,6 @@ class Header extends React.Component {
 	render() {
 		return (
 			<div className="social-bar">
-					<h4>Social</h4>
 				<Link to="/https://github.com/upatfive">
 					<FontAwesome
 						name='github'

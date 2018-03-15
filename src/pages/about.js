@@ -40,36 +40,38 @@ class About extends React.Component {
 		return (
 			<div>
 				<Helmet title={get(this, 'props.data.site.siteMetadata.title')} />
-				<h1>Up At Five</h1>
-				<p>Crafting the web before 10am</p>
-				<h2>about us</h2>
-				<h3>services</h3>
-				<ul>
-					<li>Shopify</li>
-					<li>Ecommerce</li>
-					<li>Ruby on Rails</li>
-					<li>Back-End</li>
-					<li>Front-End</li>
-					<li>UX</li>
-					<li>Art Direction</li>
-					<li>Visual Design</li>
-				</ul>
-				<h3 id="all-clients">clients we've worked with</h3>
-				<ul className="client-list">
-					{clients.map(client => {
-						return (
-							<Client key={client.name} name={client.name} type={client.type} link={client.link} />
-						)
-					})
-					}
-				</ul>
-				<h3>our team</h3>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sagittis sapien sed risus lacinia, ut volutpat nisi accumsan. In lacus mi, dignissim quis nulla a, tincidunt interdum lorem.</p>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sagittis sapien sed risus lacinia, ut volutpat nisi accumsan. In lacus mi, dignissim quis nulla a, tincidunt interdum lorem.</p>
-				<h2>contact</h2>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sagittis sapien sed risus lacinia, ut volutpat nisi accumsan. In lacus mi, dignissim quis nulla a, tincidunt interdum lorem.</p>
-				<a className="button" href="mailto:hello@upatfive.ca">hello@upatfive.ca</a>
-				<Social/>
+				<div className="wrapper-grey">
+					<h1 className="up-five-title">Up At Five</h1>
+					<p>Crafting the web before 10am</p>
+					<h2 className="primary-title">about us</h2>
+					<h3 className="secondary-title">services</h3>
+					<ul>
+						<li>Shopify</li>
+						<li>Ecommerce</li>
+						<li>Ruby on Rails</li>
+						<li>Back-End</li>
+						<li>Front-End</li>
+						<li>UX</li>
+						<li>Art Direction</li>
+						<li>Visual Design</li>
+					</ul>
+					<h3 id="all-clients" className="secondary-title">clients we've worked with</h3>
+					<ul className="client-list">
+						{clients.map(client => {
+							return (
+								<Client key={client.name} name={client.name} type={client.type} link={client.link} />
+							)
+						})
+						}
+					</ul>
+					<h3 className="secondary-title">our team</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sagittis sapien sed risus lacinia, ut volutpat nisi accumsan. In lacus mi, dignissim quis nulla a, tincidunt interdum lorem.</p>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sagittis sapien sed risus lacinia, ut volutpat nisi accumsan. In lacus mi, dignissim quis nulla a, tincidunt interdum lorem.</p>
+					<h2 className="primary-title">contact</h2>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sagittis sapien sed risus lacinia, ut volutpat nisi accumsan. In lacus mi, dignissim quis nulla a, tincidunt interdum lorem.</p>
+					<a className="button" href="mailto:hello@upatfive.ca">hello@upatfive.ca</a>
+					<Social/>
+				</div>
 			</div>
 		)
 	}

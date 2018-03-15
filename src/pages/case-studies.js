@@ -13,27 +13,29 @@ class CaseStudies extends React.Component {
 		return (
 			<div>
 				<Helmet title={get(this, 'props.data.site.siteMetadata.title')} />
-				<h1>Up at five</h1>
-				<h2>case studies</h2>
-				{posts.map(post => {
-					let hero = post.node.frontmatter.hero
-					if (post.node.path !== '/404/') {
-						const title = get(post, 'node.frontmatter.title') || post.node.path
-						return (
-							<div key={post.node.frontmatter.path}>
-								<Link to={post.node.frontmatter.path} >
-									<img src={post.node.frontmatter.hero.childImageSharp.responsiveSizes.src} alt=""/>
-									<h3>
-											{post.node.frontmatter.title}
-									</h3>
-									<p>{post.node.frontmatter.client}</p>
-								</Link>
-								{/* <p dangerouslySetInnerHTML={{ __html: post.node.excerpt }} /> */}
-							</div>
-						)
-					}
-				})}
-				<Social/>
+				<div className="wrapper-grey">
+					<h1 className="up-five-title">Up at five</h1>
+					<h2 className="primary-title">case studies</h2>
+					{posts.map(post => {
+						let hero = post.node.frontmatter.hero
+						if (post.node.path !== '/404/') {
+							const title = get(post, 'node.frontmatter.title') || post.node.path
+							return (
+								<div className="case-study-card" key={post.node.frontmatter.path}>
+									<Link to={post.node.frontmatter.path} >
+										<img src={post.node.frontmatter.hero.childImageSharp.responsiveSizes.src} alt=""/>
+										<h3>
+												{post.node.frontmatter.title}
+										</h3>
+										<p>{post.node.frontmatter.client}</p>
+									</Link>
+									{/* <p dangerouslySetInnerHTML={{ __html: post.node.excerpt }} /> */}
+								</div>
+							)
+						}
+					})}
+					<Social/>
+				</div>
 			</div>
 		)
 	}

@@ -1,3 +1,6 @@
+body {
+	font-family: sans-serif;
+}
 img {
 	max-width: 100%;
 }
@@ -10,4 +13,72 @@ ul {
 	display: inline-block;
 	text-decoration: none;
 	color: black;
+}
+.wrapper-grey {
+	width: 50%;
+	margin: 0 auto;
+	background: #F6F4F5;
+	padding: 50px;
+	padding-top: 0;
+}
+.up-five-title {
+	color: #2746EC;
+	text-align: center;
+	margin: 0;
+	transform: translateY(-50%)
+}
+.primary-title {
+	background: #2746EC;
+	padding: 5px 70px 5px 70px;
+	color: white;
+	transform: translateX(-50%);
+	display: inline-block;
+}
+.secondary-title {
+	color: #2746EC;
+	position: relative;
+	margin: 0;
+	padding-top: 10px;
+	font-size: 16px;
+}
+.secondary-title:after{
+	content: '';
+	background: #2746EC;
+	width: 20px;
+	height: 2px;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.case-study-card {
+	width: 85%;
+	position: relative;
+	margin-bottom: 80px;
+}
+.case-study-card:nth-child(odd){
+	transform: translateX(50%);
+}
+.case-study-card:nth-child(even){
+	transform: translateX(-50%);
+}
+.case-study-card:nth-child(odd) h3{
+ transform: translateY(-100%) translateX(-50%);
+}
+.case-study-card:nth-child(even) h3{
+ transform: translateY(-100%) translateX(100%);
+}
+.case-study-card:nth-child(even) p{
+ text-align: right;
+}
+
+.case-study-card img {
+	width: 100%;
+}
+.case-study-card h3 {
+	position: absolute;
+	top: 50%;
+	width: 70%;
+}
+.case-study-card p {
+	margin-top: 0;
 }

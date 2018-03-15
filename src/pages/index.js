@@ -33,27 +33,29 @@ class SiteIndex extends React.Component {
     return (
       <div>
         <Helmet title={get(this, 'props.data.site.siteMetadata.title')} />
-        <h1>Up at Five</h1>
-        <p>A digital studio focused on data-driven web applications</p>
-        <h3>selected clients</h3>
+        <div className="wrapper-grey">
+          <h1 className="up-five-title">Up at Five</h1>
+          <p>A digital studio focused on data-driven web applications</p>
+          <h3 className="secondary-title">selected clients</h3>
 
-        <div className="client-grid">
-          {clients.map(client =>{
-            return (
-              <ClientLogo key={client.name} name={client.name} logo={client.logo} link={client.link} />
-            )
-            })
-          }
+          <div className="client-grid">
+            {clients.map(client =>{
+              return (
+                <ClientLogo key={client.name} name={client.name} logo={client.logo} link={client.link} />
+              )
+              })
+            }
+          </div>
+          <Link to="/about#all-clients">View All Clients</Link>
+          <h3 className="secondary-title">methodology</h3>
+          <h4>Lorem Ipsum Subtitle</h4>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sagittis sapien sed risus lacinia, ut volutpat nisi accumsan. In lacus mi, dignissim quis nulla a, tincidunt interdum lorem. </p>
+          <h4>Lorem Ipsum Subtitle</h4>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sagittis sapien sed risus lacinia, ut volutpat nisi accumsan. In lacus mi, dignissim quis nulla a, tincidunt interdum lorem. </p>
+          <h4>Lorem Ipsum Subtitle</h4>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sagittis sapien sed risus lacinia, ut volutpat nisi accumsan. In lacus mi, dignissim quis nulla a, tincidunt interdum lorem. </p>
+          <Social />
         </div>
-        <Link to="/about#all-clients">View All Clients</Link>
-        <h3>methodology</h3>
-        <h4>Lorem Ipsum Subtitle</h4>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sagittis sapien sed risus lacinia, ut volutpat nisi accumsan. In lacus mi, dignissim quis nulla a, tincidunt interdum lorem. </p>
-        <h4>Lorem Ipsum Subtitle</h4>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sagittis sapien sed risus lacinia, ut volutpat nisi accumsan. In lacus mi, dignissim quis nulla a, tincidunt interdum lorem. </p>
-        <h4>Lorem Ipsum Subtitle</h4>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sagittis sapien sed risus lacinia, ut volutpat nisi accumsan. In lacus mi, dignissim quis nulla a, tincidunt interdum lorem. </p>
-        <Social />
       </div>
     )
   }

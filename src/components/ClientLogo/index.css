@@ -7,7 +7,7 @@
 	align-items: center;
 }
 .client {
-	background:#f3f3f3;
+	background:#EAEAEA;
 	height: 100%;
 	width: 100%;
 	display: flex;
@@ -15,7 +15,7 @@
 	justify-content: center;
 }
 .client:nth-of-type(odd){
-	background-color: #c3c3c3;
+	background-color: #D1D0D6;
 }
 .client img {
 	max-width: 120px;
