@@ -8,24 +8,24 @@ class Header extends React.Component {
 	render() {
 		return (
 			<div className="social-bar">
-				<Link to="/https://github.com/upatfive">
+				<a href="https://github.com/upatfive" target="_blank">
 					<FontAwesome
 						name='github'
 						size='lg'
 						/>
-				</Link>
-				<Link to="https://twitter.com/up_at_five">
+				</a>
+				<a href="https://twitter.com/up_at_five" target="_blank">
 					<FontAwesome
 						name='twitter'
 						size='lg'
 					/>
-				</Link>
-				<Link to="https://www.linkedin.com/company/up-at-five/">
+				</a>
+				<a href="https://www.linkedin.com/company/up-at-five/" target="_blank">
 					<FontAwesome
 						name='linkedin'
 						size='lg'
 					/>
-				</Link>
+				</a>
 			</div>
 		)
 	}

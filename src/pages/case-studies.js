@@ -14,7 +14,7 @@ class CaseStudies extends React.Component {
 			<div>
 				<Helmet title={get(this, 'props.data.site.siteMetadata.title')} />
 				<div className="wrapper-grey">
-					<h1 className="up-five-title">Up at five</h1>
+					<h1 className="up-five-title">Up At Five</h1>
 					<h2 className="primary-title">case studies</h2>
 					{posts.map(post => {
 						let hero = post.node.frontmatter.hero

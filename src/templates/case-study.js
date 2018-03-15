@@ -13,14 +13,17 @@ class CaseStudyTemplate extends React.Component {
     return (
       <div>
         <Helmet title={`${post.frontmatter.title} | ${siteTitle}`} />
-        <h1>{post.frontmatter.title}</h1>
-        <p>{post.frontmatter.client}</p>
-        {/* <p>
-          {post.frontmatter.date}
-        </p> */}
-        <div dangerouslySetInnerHTML={{ __html: post.html }} />
-        <Link className="button" to="/case-studies">more case studies</Link>
-        <Social />
+        <div className="wrapper-grey">
+          <h1 className="up-five-title">Up At Five</h1>
+          <h2 className="primary-title">{post.frontmatter.client}</h2>
+          <h2>{post.frontmatter.title}</h2>
+          {/* <p>
+            {post.frontmatter.date}
+          </p> */}
+          <div dangerouslySetInnerHTML={{ __html: post.html }} />
+          <Link className="button" to="/case-studies">more case studies</Link>
+          <Social />
+        </div>
       </div>
     )
   }

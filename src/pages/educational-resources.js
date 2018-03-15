@@ -12,7 +12,7 @@ class EducationalResources extends React.Component {
 			<div>
 				<Helmet title={get(this, 'props.data.site.siteMetadata.title')} />
 				<div className="wrapper-grey">
-					<h1 class="up-five-title">Up at Five</h1>
+					<h1 className="up-five-title">Up At Five</h1>
 					<h2 className="primary-title">educational resources</h2>
 
 					<h4><a href="http://www.codeshopify.com/" target="_blank">Code Shopify</a></h4>

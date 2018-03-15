@@ -42,7 +42,7 @@ class About extends React.Component {
 				<Helmet title={get(this, 'props.data.site.siteMetadata.title')} />
 				<div className="wrapper-grey">
 					<h1 className="up-five-title">Up At Five</h1>
-					<p>Crafting the web before 10am</p>
+					<p className="up-five-subtitle">Crafting the web before 10am</p>
 					<h2 className="primary-title">about us</h2>
 					<h3 className="secondary-title">services</h3>
 					<ul>

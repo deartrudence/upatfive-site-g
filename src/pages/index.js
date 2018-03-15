@@ -34,8 +34,8 @@ class SiteIndex extends React.Component {
       <div>
         <Helmet title={get(this, 'props.data.site.siteMetadata.title')} />
         <div className="wrapper-grey">
-          <h1 className="up-five-title">Up at Five</h1>
-          <p>A digital studio focused on data-driven web applications</p>
+          <h1 className="up-five-title">Up At Five</h1>
+          <p className="up-five-subtitle">A digital studio focused on data-driven web applications</p>
           <h3 className="secondary-title">selected clients</h3>
 
           <div className="client-grid">
