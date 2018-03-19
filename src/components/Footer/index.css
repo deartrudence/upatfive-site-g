@@ -1,7 +1,23 @@
 footer {
-	/* border: 1px solid slategray; */
-	padding: 20px;
+	display: flex;
+	margin:0;
+	width: 90%;
+	margin: 0 auto;
+	padding: 36px 0 42px 0;
 }
 footer img {
-	width: 80px;
+	width: 70px;
+}
+footer ul{
+	padding: 0;
+}
+footer .image, footer .info {
+	width: 25%;
+	font-size: 1.2rem;
+	line-height: 2rem;
+	text-transform: uppercase;
+}
+footer a {
+	text-decoration: none;
+	color: #4A4A4A;
 }

@@ -104,14 +104,16 @@ class SiteIndex extends React.Component {
                 })
               }
             </div>
-            <Link to="/about#all-clients">View All Clients</Link>
-            <h3 className="secondary-title">methodology</h3>
-            <h4>Lorem Ipsum Subtitle</h4>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sagittis sapien sed risus lacinia, ut volutpat nisi accumsan. In lacus mi, dignissim quis nulla a, tincidunt interdum lorem. </p>
-            <h4>Lorem Ipsum Subtitle</h4>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sagittis sapien sed risus lacinia, ut volutpat nisi accumsan. In lacus mi, dignissim quis nulla a, tincidunt interdum lorem. </p>
-            <h4>Lorem Ipsum Subtitle</h4>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sagittis sapien sed risus lacinia, ut volutpat nisi accumsan. In lacus mi, dignissim quis nulla a, tincidunt interdum lorem. </p>
+            <Link className="view-clients" to="/about#all-clients">View All Clients</Link>
+            <div className="methodology">
+              <h3 className="secondary-title">methodology</h3>
+              <h4>Lorem Ipsum Subtitle</h4>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sagittis sapien sed risus lacinia, ut volutpat nisi accumsan. In lacus mi, dignissim quis nulla a, tincidunt interdum lorem. </p>
+              <h4>Lorem Ipsum Subtitle</h4>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sagittis sapien sed risus lacinia, ut volutpat nisi accumsan. In lacus mi, dignissim quis nulla a, tincidunt interdum lorem. </p>
+              <h4>Lorem Ipsum Subtitle</h4>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sagittis sapien sed risus lacinia, ut volutpat nisi accumsan. In lacus mi, dignissim quis nulla a, tincidunt interdum lorem. </p>
+            </div>
             <Parallax
               className="custom-class"
               offsetYMax={"50px"}

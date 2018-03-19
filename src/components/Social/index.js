@@ -11,19 +11,16 @@ class Header extends React.Component {
 				<a href="https://github.com/upatfive" target="_blank">
 					<FontAwesome
 						name='github'
-						size='lg'
 						/>
 				</a>
 				<a href="https://twitter.com/up_at_five" target="_blank">
 					<FontAwesome
 						name='twitter'
-						size='lg'
 					/>
 				</a>
 				<a href="https://www.linkedin.com/company/up-at-five/" target="_blank">
 					<FontAwesome
 						name='linkedin'
-						size='lg'
 					/>
 				</a>
 			</div>

@@ -1,12 +1,12 @@
 .social-bar {
 	display: flex;
-	width: 300px;
-	padding: 10px 40px 10px 100px;
-  max-width: 70%;
-	background: #2746EC;
-	margin-left: 90%;
+	width: 295px;
+	padding: 10px 0px 10px 90px;
+	background: #1E46F4;
+	margin-left: 105%;
+	font-size: 20px;
 }
 .social-bar a {
 	color: white;
-	margin-right: 40px;
+	margin-right: 24px;
 }
