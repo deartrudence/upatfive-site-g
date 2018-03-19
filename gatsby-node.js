@@ -1,8 +1,8 @@
-const _ = require("lodash")
-const Promise = require("bluebird")
-const path = require("path")
-const select = require(`unist-util-select`)
-const fs = require(`fs-extra`)
+const _ = require("lodash");
+const Promise = require("bluebird");
+const path = require("path");
+const select = require(`unist-util-select`);
+const fs = require(`fs-extra`);
 
 exports.createPages = ({ graphql, boundActionCreators }) => {
   const { createPage } = boundActionCreators
@@ -37,7 +37,6 @@ exports.createPages = ({ graphql, boundActionCreators }) => {
             path: edge.node.frontmatter.path,
             component: CaseStudy,
             context: {
-              path: edge.node.frontmatter.path,
             },
           })
         })

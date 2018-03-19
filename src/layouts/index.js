@@ -2,6 +2,7 @@ import React from 'react'
 import Link from 'gatsby-link'
 import Header from '../components/Header'
 import Footer from '../components/Footer'
+import { ParallaxProvider } from 'react-scroll-parallax';
 import './index.css'
 
 class Template extends React.Component {
@@ -12,9 +13,11 @@ class Template extends React.Component {
       
     return (
       <div>
-        <Header/>
-        {children()}
-        <Footer/>
+          <Header/>
+        <ParallaxProvider>
+          {children()}
+        </ParallaxProvider>
+          <Footer/>
       </div>
     )
   }
