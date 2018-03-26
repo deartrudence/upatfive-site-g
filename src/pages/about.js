@@ -4,18 +4,24 @@ import get from 'lodash/get'
 import Helmet from 'react-helmet'
 import Client from '../components/Client'
 import Social from '../components/Social'
+import about_image from '../assets/about.png'
+import jordan from '../assets/Jordan.png'
+import trudy from '../assets/Trudy.png'
+import welike from '../assets/welikeinternet.png'
+import hydesk from '../assets/hy-desk.png'
+import { Parallax } from 'react-scroll-parallax' 
 
 
 class About extends React.Component {
 	render() {
 		const siteTitle = get(this, 'props.data.site.siteMetadata.title')
 		const clients = [
-			{ name: "borrowell", type: "Finance", link: "https://www.borrowell.com" },
-			{ name: "wwf", type: "Charity, Animals", link: "http://www.wwf.ca/" },
-			{ name: "msf", type: "Charity", link: "http://www.msf.ca/" },
-			{ name: "diageo", type: "Alcohol", link: "https://www.diageo.com/" },
-			{ name: "northstar", type: "Market Research", link: "http://www.northstarhub.com/" },
-			{ name: "td bank", type: "Finance", link: "https://www.td.com/" },
+			{ name: "Borrowell", type: "Finance", link: "https://www.borrowell.com" },
+			{ name: "WWF", type: "Charity, Animals", link: "http://www.wwf.ca/" },
+			{ name: "MSF", type: "Charity", link: "http://www.msf.ca/" },
+			{ name: "Diageo", type: "Alcohol", link: "https://www.diageo.com/" },
+			{ name: "Northstar", type: "Market Research", link: "http://www.northstarhub.com/" },
+			{ name: "TD bank", type: "Finance", link: "https://www.td.com/" },
 			{ name: "Canada Learning Code", type: "Charity, Tech, Education", link: "https://www.canadalearningcode.ca/" },
 			{ name: "Shopify", type: "e-commerce", link: "https://www.shopify.com" },
 			{ name: "Hackeryou", type: "tech, education", link: "http://hackeryou.com/" },
@@ -40,37 +46,126 @@ class About extends React.Component {
 		return (
 			<div>
 				<Helmet title={get(this, 'props.data.site.siteMetadata.title')} />
-				<div className="wrapper-grey">
-					<h1 className="up-five-title">Up At Five</h1>
-					<p className="up-five-subtitle">Crafting the web before 10am</p>
-					<h2 className="primary-title">about us</h2>
-					<h3 className="secondary-title">services</h3>
-					<ul>
-						<li>Shopify</li>
-						<li>Ecommerce</li>
-						<li>Ruby on Rails</li>
-						<li>Back-End</li>
-						<li>Front-End</li>
-						<li>UX</li>
-						<li>Art Direction</li>
-						<li>Visual Design</li>
-					</ul>
-					<h3 id="all-clients" className="secondary-title">clients we've worked with</h3>
-					<ul className="client-list">
-						{clients.map(client => {
-							return (
-								<Client key={client.name} name={client.name} type={client.type} link={client.link} />
-							)
-						})
-						}
-					</ul>
-					<h3 className="secondary-title">our team</h3>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sagittis sapien sed risus lacinia, ut volutpat nisi accumsan. In lacus mi, dignissim quis nulla a, tincidunt interdum lorem.</p>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sagittis sapien sed risus lacinia, ut volutpat nisi accumsan. In lacus mi, dignissim quis nulla a, tincidunt interdum lorem.</p>
-					<h2 className="primary-title">contact</h2>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sagittis sapien sed risus lacinia, ut volutpat nisi accumsan. In lacus mi, dignissim quis nulla a, tincidunt interdum lorem.</p>
-					<a className="button" href="mailto:hello@upatfive.ca">hello@upatfive.ca</a>
-					<Social/>
+				<div className="wrapper-outer">
+					{/* <div className="blue-bar-1"></div> */}
+					<div className="flex-wrapper">
+						<Parallax
+							className="box1-outer"
+							offsetYMax={"0px"}
+							offsetYMin={"490px"}
+							slowerScrollRate
+							tag="figure"
+						>
+							<div className="blue-box_about_horizontal_1"></div>
+						</Parallax>
+						<Parallax
+							className="box3-outer"
+							offsetYMax={"400px"}
+							offsetYMin={"0px"}
+							slowerScrollRate
+							tag="figure"
+						>
+							<div className="blue-box_about_vertical_1"></div>
+						</Parallax>
+						<Parallax
+							className="box-outer_about_horizontal_2"
+							offsetYMax={"0px"}
+							offsetYMin={"200px"}
+							slowerScrollRate
+							tag="figure"
+						>
+							<div className="blue-box_about_horizontal_2"></div>
+						</Parallax>
+						<Parallax
+							className="box-outer_about_vertical_2"
+							offsetYMax={"400px"}
+							offsetYMin={"0px"}
+							slowerScrollRate
+							tag="figure"
+						>
+							<div className="blue-box_about_vertical_2"></div>
+						</Parallax>
+					</div>
+					<div className="wrapper-grey">
+						<h1 className="up-five-title">Up At Five</h1>
+						<p className="up-five-subtitle">Crafting the web before 10am</p>
+						{/* <Parallax
+							className="about-image-parallax"
+							offsetYMax={0}
+							offsetYMin={0}
+							slowerScrollRate
+							tag="figure"
+						> */}
+							<img className="about-image" src={about_image} alt=""/>
+						{/* </Parallax> */}
+						<h2 className="primary-title">about us</h2>
+						<h3 className="secondary-title">services</h3>
+						<ul className="service-list">
+							<li>Shopify</li>
+							<li>Ecommerce</li>
+							<li>Ruby on Rails</li>
+							<li>Back-End</li>
+							<li>Front-End</li>
+							<li>UX</li>
+							<li>Art Direction</li>
+							<li>Visual Design</li>
+						</ul>
+
+						<div className="welike">
+							<Parallax
+								className="about-image-parallax"
+								offsetYMax={"50px"}
+								offsetYMin={"-20px"}
+								slowerScrollRate
+								tag="figure"
+							>
+								<img src={welike} alt=""/>
+							</Parallax>
+							<Parallax
+								className="about-image-parallax"
+								offsetYMax={"0px"}
+								offsetYMin={"20px"}
+								slowerScrollRate
+								tag="figure"
+							>
+								<p>We like</p>
+								<p>the internet</p>
+							</Parallax>
+				
+						</div>
+
+						<h3 id="all-clients" className="secondary-title">clients we've worked with</h3>
+						<ul className="client-list">
+							{clients.map(client => {
+								return (
+									<Client key={client.name} name={client.name} type={client.type} link={client.link} />
+								)
+							})
+							}
+						</ul>
+						<h3 className="secondary-title">our team</h3>
+						<div className="our-team">
+							<p>Up at Five comprises of Trudy MacNabb & Jordan Deutsch. They are up at five, have their second coffee at noon, and are in bed by nine.</p>
+							<p>We build accessible web applications that provide solutions to real problems. Our projects are data drive, emphasizing the content, with a focus on user experience.</p>
+							<div className="profile-photos">
+								<div>
+									<img src={jordan} alt=""/>
+									<p>Jordan</p>
+								</div>
+								<div>
+									<img src={trudy} alt=""/>
+									<p>Trudy</p>
+								</div>
+							</div>
+						</div>
+						<h2 className="primary-title contact">contact</h2>
+						<div className="contact-area">
+							<p>We love to meet new people, hear novel ideas, and learn about different projects. If you have a project you'd like to discuss or want to grab a coffee we would love to hear from you.</p>
+							<a className="button" href="mailto:hello@upatfive.ca" target="_blank">hello@upatfive.ca</a>
+						</div>
+						<img className="hydesk" src={hydesk} alt=""/>
+						<Social/>
+					</div>
 				</div>
 			</div>
 		)

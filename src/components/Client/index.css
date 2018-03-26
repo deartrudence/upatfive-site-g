@@ -1,12 +1,19 @@
 .client-list-item {
-	text-transform: uppercase;
+	
 }
 .client-list-item span {
 	font-weight: bold;
 	text-transform: initial;
+	color: #333333;
+	font-size: 1.4rem;
 }
 .client-list-item a{
 	text-decoration: none;
-	color: black;
-
+}
+.client-list p {
+	margin: 0;
+	font-size: 1.2rem;
+	line-height: 2.2rem;
+	color: #9C9CA1;
+	text-transform: uppercase;
 }

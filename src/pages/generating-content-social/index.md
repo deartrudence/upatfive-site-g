@@ -1,9 +1,9 @@
 ---
-title: Generating content through integrated social media
+title: generating content through integrated social media
 client: WWF
 date: "2015-05-06T23:46:37.121Z"
 path: "/content-integrated-social-media/"
-hero: './pineapple-7.jpg'
+hero: './wwf.png'
 ---
 
 Wow! I love blogging so much already.

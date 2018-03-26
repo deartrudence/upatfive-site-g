@@ -13,11 +13,11 @@ class Template extends React.Component {
       
     return (
       <div>
-          <Header/>
-        <ParallaxProvider>
-          {children()}
-        </ParallaxProvider>
-          <Footer/>
+        <Header/>
+          <ParallaxProvider>
+            {children()}
+          </ParallaxProvider>
+        <Footer/>
       </div>
     )
   }

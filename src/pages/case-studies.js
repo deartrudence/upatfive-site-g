@@ -13,6 +13,7 @@ class CaseStudies extends React.Component {
 		return (
 			<div>
 				<Helmet title={get(this, 'props.data.site.siteMetadata.title')} />
+				<div className="flex-wrapper"></div>
 				<div className="wrapper-grey">
 					<h1 className="up-five-title">Up At Five</h1>
 					<h2 className="primary-title">case studies</h2>

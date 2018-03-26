@@ -1,36 +1,89 @@
 .blue-box1{
 	background:#1E46F4;
-	height: 80px;
+	height: 150px;
 	width: 80vw;
 	z-index: -1;
 }
 .blue-box2{
 	background:#1E46F4;
 	height: 500px;
-	width: 80px;
+	width: 100px;
 	z-index: -1;
+}
+.blue-box_about_horizontal_1{
+	background: #1E46F4;
+	height: 150px;
+	width: 90vw;
+}
+.blue-box_about_horizontal_2{
+	background: #1E46F4;
+	height: 75px;
+	width: 90vw;
+}
+.blue-box_about_vertical_1 {
+	background: #1E46F4;
+	height: 500px;
+	width: 100px;
+}
+.blue-box_about_vertical_2 {
+	background: #1E46F4;
+	height: 500px;
+	width: 100px;
 }
 .image1 {
 	width: 250px;
 	margin: 0;
 	opacity: 0.5;
 }
-.image2 {
-	width: 400px;
+
+.image_home_1 {
+	width: 240px;
 	margin: 0;
 	opacity: 0.5;
 }
-.image3 {
+.image-outer_home_1 {
+	position: absolute;
+	top: 0px;
+	left: 0;
+	margin: 0;
+	z-index: -1;
+}
+.image_home_2 {
 	width: 300px;
 	margin: 0;
 	opacity: 0.5;
 }
-.image1-outer{
+.image-outer_home_2{
 	position: absolute;
-	top: 20;
-	left: 0;
+	top: 0px;
+	right: 0px;
 	margin: 0;
 }
+.image_home_3 {
+	width: 300px;
+	margin: 0;
+	opacity: 0.5;
+}
+.image-outer_home_3 {
+	position: absolute;
+	margin: 0;
+	top: 550px;
+	left: 180px;
+	z-index: -1;
+}
+.image_home_4 {
+	width: 300px;
+	margin: 0;
+	opacity: 0.5;
+}
+.image-outer_home_4 {
+	position: absolute;
+	margin: 0;
+	top: 600px;
+	right: 180px;
+	z-index: -1;
+}
+
 .box1-outer{
 	position: absolute;
 	top: 0;
@@ -45,21 +98,34 @@
 	margin: 0;
 	z-index: 1;
 }
-.image2-outer{
+.box3-outer{
 	position: absolute;
-	top: -200px;
-	right: 0px;
+	top: 1000px;
+	right: 0;
+	margin: 0;
+	z-index: 1;
+}
+.box-outer_about_horizontal_2{
+	position: absolute;
+	top: 2000px;
+	right: 0;
 	margin: 0;
 	z-index: -1;
 }
-.image3-outer{
+.box-outer_about_vertical_2{
 	position: absolute;
-	top: 400px;
-	right: -30px;
+	top: 2500px;
+	left: 20vw ;
 	margin: 0;
 	z-index: -1;
 }
 
+
+.blue-bar-1 {
+	height: 150px;
+	width: 100%;
+	background: #1E46F4 ;
+}
 .view-clients {
 	font-size: 2rem;
 	line-height: 2.4rem;
@@ -83,4 +149,41 @@
 }
 .methodology .secondary-title {
 	margin-bottom: 42px;
+}
+
+.contact-area {
+	margin: 42px 0 100px 80px;
+}
+.contact-area p {
+	margin-bottom: 100px;
+}
+.welike img {
+	transform: translateX(-50%)
+}
+.welike p {
+	font-size: 3rem;
+	line-height: 4.3rem;
+	color: #1E46F4 ;
+	text-decoration: underline;
+	margin: 0;
+	transform: translate(15%, -400px);
+}
+.profile-photos {
+	display: flex;
+	justify-content: space-between;
+	margin: 135px 0 100px 0 ;
+	width: 620px;
+}
+.profile-photos p {
+	margin: 0;
+	text-align: right;
+	text-transform: uppercase;
+	color: #9C9CA1;
+}
+.profile-photos img {
+	display: block;
+}
+.hydesk {
+	transform: translateX(-50%);
+  margin-bottom: 100px;
 }

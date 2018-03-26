@@ -1,4 +1,59 @@
 .header {
-	/* border: 1px solid slategray; */
-	padding: 20px;
+	position: fixed;
+	z-index: 10000;
+	padding: 32px;
+}
+
+.header > .wrapper-outer {
+	position: relative;
+}
+.header .menu {
+	background: #1E46F4;
+	color: white;
+	width: 422px;
+	padding: 32px 0 40px 46px;
+	position: absolute;
+	top: 0;
+	margin: 0;
+	/* display: none; */
+}
+.header ul {
+	padding-left: 36px;
+	padding: 82px 0 195px 36px;
+	margin: 0;
+}
+.header ul li {
+	font-size: 2rem;
+	line-height: 2.4rem;
+	font-weight: normal;
+	margin-bottom: 30px;
+}
+.header ul a {
+	color: white;
+}
+.header .menu-logo {
+	width: 63px;
+}
+.menu-icon {
+	width: unset;
+}
+.close {
+	font-size: 3rem;
+	line-height: 3.7rem;
+	cursor: pointer;
+}
+svg {
+  cursor: pointer;
+}
+svg:hover .line1 {
+  width: 33px;
+}
+.line1 {
+  transition: 0.3s;
+}
+svg:hover .line2 {
+  width: 33px;
+}
+.line2 {
+  transition: 0.3s;
 }

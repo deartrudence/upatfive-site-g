@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: "Gatsby Starter Blog",
+    title: "Up at Five",
     author: "Kyle Mathews",
   },
   plugins: [
@@ -10,6 +10,12 @@ module.exports = {
         path: `${__dirname}/src/pages`,
         name: "pages",
       },
+    },
+    {
+      resolve: `gatsby-plugin-google-fonts`,
+      options: {
+        fonts: [`space mono`, `work sans`]
+      }
     },
     {
       resolve: `gatsby-transformer-remark`,

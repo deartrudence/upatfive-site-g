@@ -3,7 +3,7 @@ title: customizing e-commerce for the new online marketplace
 client: clickchange
 date: "2015-05-28T22:40:32.169Z"
 path: "/customizing-e-commerce/"
-hero: './pineapple-8-bw.jpg'
+hero: './clickchange.png'
 ---
 
 Far far away, behind the word mountains, far from the countries Vokalia

@@ -9,4 +9,8 @@
 .social-bar a {
 	color: white;
 	margin-right: 24px;
+	transition: 0.3s;
+}
+.social-bar a:hover{
+	transform: translateY(-15%);
 }

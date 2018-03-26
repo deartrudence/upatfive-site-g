@@ -1,9 +1,9 @@
 ---
-title: Custom Shopify Development & Application
+title: custom shopify development & application
 client: FBM Canada 2020
 date: "2015-05-01T22:12:03.284Z"
 path: "/custom-shopify-app-development/"
-hero: './pineapple-5.jpg'
+hero: './canadafbm.png'
 ---
 
 This is my first post on my new fake blog! How exciting!

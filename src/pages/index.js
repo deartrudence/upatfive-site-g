@@ -15,10 +15,10 @@ import td from '../assets/logos/td_bank_logo.svg'
 import clc from '../assets/logos/CLC-Logo.svg'
 import shopify from '../assets/logos/shopify.svg'
 import hackeryou from '../assets/logos/Stacked-HYCollege.png'
-import pineapple1 from '../assets/pineapple-1.jpg'
-import pineapple2 from '../assets/pineapple-4.jpg'
-import pineapple3 from '../assets/pineapple-5-bw.jpg'
-import pineapple4 from '../assets/pineapple-7.jpg'
+import ua5_home_1 from '../assets/ua5_home_1.png'
+import ua5_home_2 from '../assets/ua5_home_2.png'
+import ua5_home_3 from '../assets/ua5_home_3.png'
+import ua5_home_4 from '../assets/ua5_home_4.png'
 
 
 class SiteIndex extends React.Component {
@@ -43,52 +43,64 @@ class SiteIndex extends React.Component {
           <div className="flex-wrapper">
             <div className="left-side">
               <Parallax
-                className="image1-outer"
-                offsetYMax={90}
-                offsetYMin={-90}
+                className="image-outer_home_1"
+                offsetYMax={25}
+                offsetYMin={-50}
                 slowerScrollRate
                 tag="figure"
               >
-                <img className="image1" src={pineapple1} alt=""/>
+                <img className="image_home_1" src={ua5_home_1} alt=""/>
               </Parallax>
               <Parallax
                 className="box1-outer"
-                offsetYMax={"0px"}
-                offsetYMin={"500px"}
+                offsetYMax={"300px"}
+                offsetYMin={"490px"}
                 slowerScrollRate
                 tag="figure"
               >
                 <div className="blue-box1"></div>
               </Parallax>
-            </div>
-            <div className="right-side">
               <Parallax
-                className="image2-outer"
+                className="image-outer_home_3"
                 offsetYMax={90}
                 offsetYMin={-50}
                 slowerScrollRate
                 tag="figure"
               >
-                <img className="image2" src={pineapple2} alt=""/>
+                <img className="image_home_3" src={ua5_home_3} alt="" />
+              </Parallax>
+            </div>
+            <div className="right-side">
+              <Parallax
+                className="image-outer_home_2"
+                offsetYMax={0}
+                offsetYMin={-50}
+                slowerScrollRate
+                tag="figure"
+              >
+                <img className="image_home_2" src={ua5_home_2} alt=""/>
+
+              </Parallax>
+              <Parallax
+                className="image-outer_home_4"
+                offsetYMax={"-100px"}
+                offsetYMin={"0px"}
+                slowerScrollRate
+                tag="figure"
+              >
+                <img className="image_home_4" src={ua5_home_4} alt=""/>
+
               </Parallax>
               <Parallax
                 className="box2-outer"
                 offsetYMax={"300"}
-                offsetYMin={"-300"}
+                offsetYMin={"-200"}
                 slowerScrollRate
                 tag="figure"
               >
                 <div className="blue-box2"></div>
               </Parallax>
-              <Parallax
-                className="image3-outer"
-                offsetYMax={90}
-                offsetYMin={-50}
-                slowerScrollRate
-                tag="figure"
-              >
-                <img className="image3" src={pineapple4} alt="" />
-              </Parallax>
+              
             </div>
           </div>
           <div className="wrapper-grey">
