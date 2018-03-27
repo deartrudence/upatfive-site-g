@@ -126,15 +126,7 @@ class SiteIndex extends React.Component {
               <h4>Lorem Ipsum Subtitle</h4>
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sagittis sapien sed risus lacinia, ut volutpat nisi accumsan. In lacus mi, dignissim quis nulla a, tincidunt interdum lorem. </p>
             </div>
-            <Parallax
-              className="custom-class"
-              offsetYMax={"50px"}
-              offsetYMin={"-50px"}
-              slowerScrollRate
-              tag="figure"
-            >
               <Social />
-            </Parallax>
           </div>
         </div>
       </div>

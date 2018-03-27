@@ -63,12 +63,13 @@ ul {
 }
 .wrapper-grey {
 	width: 620px;
+	max-width: 85%;
 	margin: 0 auto;
 	background: #F6F4F5;
 	padding: 80px;
 	padding-top: 0;
-
 }
+
 
 .up-five-title {
 	color: #1E46F4;
@@ -121,6 +122,45 @@ ul {
 	top: 0;
 	left: 0;
 }
+
+@media(max-width: 500px){
+	.wrapper-outer {
+		width: 100%;
+	}
+	.flex-wrapper{
+		padding-top: 120px;
+	}
+	.wrapper-grey{
+		padding: 28px;
+		padding-top: 0;
+	}
+	.up-five-title {
+		font-size: 5rem;
+		line-height: 6.1rem;
+	}
+	.up-five-subtitle{
+		font-size: 1.4rem;
+		line-height: 2.4rem;
+		margin-top: 0;
+		margin-bottom: 0;
+	}
+	.primary-title {
+		padding: 8px 80px 8px 55px;
+		transform: translate(-70px,-200%);
+		font-size: 1.4rem;
+		line-height: 1.9rem;
+		width: unset;
+	}
+	.primary-title.contact {
+		padding-right: 135px;
+		transform: translateX(-28%);
+		width: unset;
+	}
+	.button {
+		width: 100%;
+		text-align: center;
+	}
+}
 .case-study-card {
 	position: relative;
 	margin-top: 90px;
@@ -142,8 +182,12 @@ ul {
  text-align: right;
 }
 
+.case-study-card:hover img {
+	filter: grayscale(80%);
+}
 .case-study-card img {
 	width: 100%;
+	transition: 0.2s;
 }
 .case-study-card h3 {
 	position: absolute;
@@ -179,5 +223,18 @@ ul {
 }
 .our-team {
 	margin: 28px 0 0 80px;
+}
+@media(max-width: 500px){
+	.about-image{
+		transform: translate(20%, 20%);
+	}
+	.services {
+		margin-top: 28px;
+	}
+	.service-list, .client-list, .our-team {
+		margin-left: 0;
+		padding-left: 0;
+		margin-top: 20px;
+	}
 }
 

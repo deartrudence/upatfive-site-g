@@ -4,7 +4,7 @@
 	padding: 10px 0px 10px 90px;
 	background: #1E46F4;
 	margin-left: 105%;
-	font-size: 20px;
+	font-size: 2rem;
 }
 .social-bar a {
 	color: white;
@@ -13,4 +13,13 @@
 }
 .social-bar a:hover{
 	transform: translateY(-15%);
+}
+@media(max-width: 500px){
+	.social-bar{
+		font-size: 3rem;
+		margin-left: 0;
+		width: unset;
+		transform: translateX(30%);
+		padding: 8px 0px 8px 28px;
+	}
 }

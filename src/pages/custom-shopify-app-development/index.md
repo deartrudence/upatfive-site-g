@@ -1,7 +1,7 @@
 ---
 title: custom shopify development & application
 client: FBM Canada 2020
-date: "2015-05-01T22:12:03.284Z"
+date: "2016-07-01T22:12:03.284Z"
 path: "/custom-shopify-app-development/"
 hero: './canadafbm.png'
 ---

@@ -19,7 +19,7 @@ class Footer extends React.Component {
 					</div>
 					<div className="info">
 						<ul>
-							<li><a href="">Hello@upatfive.ca</a></li>
+							<li><a href="mailto:hello@upatfive.ca?Subject=Hello">Hello@upatfive.ca</a></li>
 							<li><a href="">+1 416-555-5555</a></li>
 						</ul>
 					</div>

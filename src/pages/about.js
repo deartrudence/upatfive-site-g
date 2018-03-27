@@ -99,17 +99,19 @@ class About extends React.Component {
 							<img className="about-image" src={about_image} alt=""/>
 						{/* </Parallax> */}
 						<h2 className="primary-title">about us</h2>
-						<h3 className="secondary-title">services</h3>
-						<ul className="service-list">
-							<li>Shopify</li>
-							<li>Ecommerce</li>
-							<li>Ruby on Rails</li>
-							<li>Back-End</li>
-							<li>Front-End</li>
-							<li>UX</li>
-							<li>Art Direction</li>
-							<li>Visual Design</li>
-						</ul>
+						<div className="services">
+							<h3 className="secondary-title">services</h3>
+							<ul className="service-list">
+								<li>Shopify</li>
+								<li>Ecommerce</li>
+								<li>Ruby on Rails</li>
+								<li>Back-End</li>
+								<li>Front-End</li>
+								<li>UX</li>
+								<li>Art Direction</li>
+								<li>Visual Design</li>
+							</ul>
+						</div>
 
 						<div className="welike">
 							<Parallax

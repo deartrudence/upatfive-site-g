@@ -22,9 +22,11 @@
   display: block;
   padding-top: 100%;
 }
+
 .client:nth-of-type(odd){
 	background-color: #D1D0D6;
 }
+
 .client img {
 	max-width: 60%;
 	max-height: 50%;
@@ -40,6 +42,27 @@
 @media(max-width: 500px){
 	.client-grid {
 		grid-template-columns: repeat(auto-fill, minmax(50%, 1fr));
+	}
+	.client:nth-of-type(odd){
+	background-color: #D1D0D6;
+}
+	.client:nth-of-type(3n){
+	background-color: #EAEAEA;
+	}
+	.client:nth-of-type(4){
+		background-color: #D1D0D6;
+	}
+	.client:nth-of-type(7){
+		background-color: #EAEAEA;
+	}
+	.client:nth-of-type(8){
+		background-color: #D1D0D6;
+	}
+	.client:nth-of-type(9){
+		background-color: #D1D0D6;
+	}
+	.client img {
+		filter: grayscale(0);
 	}
 
 }

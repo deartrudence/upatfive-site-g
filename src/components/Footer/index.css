@@ -32,6 +32,29 @@ footer a:hover{
 }
 .info-wrapper {
 	display: flex;
+	flex-wrap: wrap;
 	width: 620px;
 	margin: 0 auto;
+}
+@media(max-width: 500px){
+	footer {
+		padding: 30px 0 20px 0;
+	}
+	.info-wrapper{
+		width: unset;
+	}
+	footer .info{
+		width: 50%;
+		margin-top: 30px;
+	}
+	footer .info:first-of-type{
+		width: 100%;
+		margin-top: 0;
+	}
+	footer img{
+		position: unset;
+		float: left;
+		margin-right: 15px;
+		display: block;
+	}
 }
