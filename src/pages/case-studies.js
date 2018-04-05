@@ -36,6 +36,7 @@ class CaseStudies extends React.Component {
 				</div>
 				<div className="wrapper-grey">
 					<h1 className="up-five-title">Up At Five</h1>
+					<p className="up-five-subtitle">Crafting the web before 10am</p>
 					<h2 className="primary-title">case studies</h2>
 					{posts.map(post => {
 						let hero = post.node.frontmatter.hero

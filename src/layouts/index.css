@@ -143,6 +143,10 @@ ul {
 		line-height: 2.4rem;
 		margin-top: 0;
 		margin-bottom: 0;
+		width: 80%;
+	}
+	.up-five-subtitle.main-page{
+		margin-bottom: 65px;
 	}
 	.primary-title {
 		padding: 8px 80px 8px 55px;
@@ -235,6 +239,26 @@ ul {
 		margin-left: 0;
 		padding-left: 0;
 		margin-top: 20px;
+	}
+	.case-study-card h3 {
+		font-size: 2rem;
+		line-height: 3rem;
+	}
+	.case-study-card img {
+		width: 80%;
+	}
+	.case-study-card:nth-child(odd){
+	transform: translateX(30%);
+	}
+	.case-study-card:nth-child(even){
+		transform: translateX(-30%);
+	}
+	.case-study-card:nth-child(odd) h3{
+ transform: translateY(-100%) translateX(-60%);
+	}
+	.case-study-card:nth-child(even) h3{
+	transform: translateY(-100%) translateX(70%);
+	text-align: left;
 	}
 }
 

@@ -59,3 +59,11 @@ svg:hover .line2 {
 .line2 {
   transition: 0.3s;
 }
+@media(max-width: 500px){
+	.header ul{
+		padding: 62px 0 100px 0px;
+	}
+	.close {
+		margin: 0;
+	}
+}

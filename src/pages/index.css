@@ -262,4 +262,7 @@
 	.methodology p {
 		margin: 0 0 65px 45px;
 	}
+	.methodology .secondary-title{
+		margin-bottom: 35px;
+	}
 }

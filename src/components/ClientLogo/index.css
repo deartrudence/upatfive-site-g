@@ -42,6 +42,7 @@
 @media(max-width: 500px){
 	.client-grid {
 		grid-template-columns: repeat(auto-fill, minmax(50%, 1fr));
+		margin-top: 35px;
 	}
 	.client:nth-of-type(odd){
 	background-color: #D1D0D6;
