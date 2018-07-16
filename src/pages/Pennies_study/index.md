@@ -32,7 +32,7 @@ site: 'https://pennies.bar/'
 </ul>
 <div class="case-study__image cs-3">
 
-![Canada FBM](./pennies_3.png)
+![Pennies](./pennies_3.png)
 
 </div>
 
@@ -42,7 +42,7 @@ site: 'https://pennies.bar/'
 	<li>Jordan Deutsch</li>
 	<li>
 		Design Partnership
-		Sarah Dobson (https://designofbrand.com/)
+		<a href="https://designofbrand.com/" target="_blank">Sarah Dobson</a>
 	</li> 
 </ul>
 
@@ -51,16 +51,16 @@ site: 'https://pennies.bar/'
 <p>Pennies is a bar and restaurant in lively Toronto neighbourhood. The establishment is embedded in a residential street and brings an air of fun and play to the area. </p> 
 <div class="case-study__image cs-4">
 
-![Canada FBM](./pennies_6.png)
+![Pennies](./pennies_6.png)
 
 </div>
 
- <h3 class="secondary-title case-study">The Brief</h3>
+<h3 class="secondary-title case-study">The Brief</h3>
 <p>Pennies was undergoing a full rebrand / re-design and needed a website to match their new direction and aesthetic. The goal was to create a site that put pertinent restaurant info (the menu, the hours of operation) at the forefront while also carrying through a sense of fun and play. The new website would include an e-commerce component, integrating the Pennies branding into merchandise that could be purchased online. </p>
 
 
 
- <h3 class="secondary-title case-study">The Solution</h3>
+<h3 class="secondary-title case-study">The Solution</h3>
 <p>The Pennies website needed to be flexible, easy to edit and manage, and seamlessly integrate e-commerce. To respond to all of these needs we elected to build a custom Shopify theme with a Printful app integration.</p>
 <p>The theme leverages Shopify’s Section tool so all of the images and text can be edited by Pennies.</p>
 <p>The Printful integration let’s Pennies take their branding assets and easily turn them into hats, t-shirts, and shot glasses.</p>
@@ -73,7 +73,7 @@ site: 'https://pennies.bar/'
 
 <div class="case-study__image cs-5">
 
-![Canada FBM](./pennies-shirt-selection.gif)
+![Pennies](./pennies-shirt-selection.gif)
 
 </div>
 <h3>The Pennie Admin</h3>
@@ -81,7 +81,7 @@ site: 'https://pennies.bar/'
 
 <div class="case-study__image cs-6">
 
-![Canada FBM](./pennies_5.png)
+![Pennies](./pennies_5.png)
 
 </div>
 

@@ -35,7 +35,7 @@ class CaseStudies extends React.Component {
 					</Parallax>
 				</div>
 				<div className="wrapper-grey">
-					<h1 className="up-five-title">Up At Five</h1>
+					<a href="/"><h1 className="up-five-title">Up At Five</h1></a>
 					{/* <p className="up-five-subtitle">Crafting the web before 10am</p> */}
 					<h2 className="primary-title case-studies">case studies</h2>
 					{posts.map(post => {

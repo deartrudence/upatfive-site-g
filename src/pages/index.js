@@ -104,7 +104,7 @@ class SiteIndex extends React.Component {
             </div>
           </div>
           <div className="wrapper-grey">
-            <h1 className="up-five-title">Up At Five</h1>
+            <a href="/"><h1 className="up-five-title">Up At Five</h1></a>
             <p className="up-five-subtitle main-page">A digital studio focused on data-driven web applications</p>
             <div className="methodology">
               <h3 className="secondary-title">methodology</h3>

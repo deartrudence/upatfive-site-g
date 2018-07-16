@@ -88,7 +88,7 @@ class About extends React.Component {
 						</Parallax>
 					</div>
 					<div className="wrapper-grey">
-						<h1 className="up-five-title">Up At Five</h1>
+						<a href="/"><h1 className="up-five-title">Up At Five</h1></a>
 						<p className="up-five-subtitle">Crafting the web before 10am</p>
 						{/* <Parallax
 							className="about-image-parallax"

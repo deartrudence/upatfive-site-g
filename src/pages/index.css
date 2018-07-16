@@ -311,6 +311,13 @@
 	font-size: 1.4rem;
 	line-height: 1.8rem;
 }
+.case-study-wrapper ul li a {
+	color: #1E46F4;
+}
+.case-study-wrapper ul li a:hover {
+	font-weight: bold;
+}
+
 .case-study-title {
 	position: absolute;
 	top: 440px;
