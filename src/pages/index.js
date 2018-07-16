@@ -10,7 +10,7 @@ import borrowell from '../assets/logos/Borrowell-Logo.png'
 import wwf from '../assets/logos/wwf_logo.svg'
 import msf from '../assets/logos/msf_logo.png'
 import diageo from '../assets/logos/diageo_logo.svg'
-import northstar from '../assets/logos/northstar_logo.svg'
+import grayes from '../assets/logos/grayes_logo.png'
 import td from '../assets/logos/td_bank_logo.svg'
 import clc from '../assets/logos/CLC-Logo.svg'
 import shopify from '../assets/logos/shopify.svg'
@@ -29,7 +29,7 @@ class SiteIndex extends React.Component {
       { name: "wwf", logo: wwf, link:"http://www.wwf.ca/"},
       { name: "msf", logo: msf, link:"http://www.msf.ca/" },
       { name: "diageo", logo: diageo, link:"https://www.diageo.com/" },
-      { name: "northstar", logo: northstar, link:"http://www.northstarhub.com/"},
+      { name: "grayes", logo: grayes, link:"https://grayes.com/"},
       { name: "td bank", logo: td, link:"https://www.td.com/" },
       { name: "Canada Learning Code", logo: clc, link:"https://www.canadalearningcode.ca/" },
       { name: "Shopify", logo: shopify, link:"https://www.shopify.com" },

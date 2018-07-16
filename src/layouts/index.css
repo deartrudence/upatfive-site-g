@@ -100,6 +100,10 @@ ul {
 	font-size: 2rem;
 	line-height: 2.4rem;
 	font-weight: normal;
+	transition: 0.5s;
+}
+.primary-title:hover{
+	background: black;
 }
 .primary-title.contact {
 	transform: translateX(-100%);
@@ -188,10 +192,14 @@ ul {
 	margin-top: 90px;
 }
 .case-study-card:nth-child(odd){
-	transform: translateX(50%);
+	transform: translateX(50%) ;
+
 }
 .case-study-card:nth-child(even){
 	transform: translateX(-50%);
+}
+.case-study-card:nth-child(even) img {
+	transform: rotateY(180deg);
 }
 .case-study-card:nth-child(odd) h3{
  transform: translateY(-100%) translateX(-70%);

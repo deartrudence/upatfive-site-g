@@ -1,9 +1,10 @@
 ---
-title: custom shopify development & application
+title: The power of Shopify as a publishing catalogue system
 client: FBM Canada 2020
 date: "2016-07-01T22:12:03.284Z"
 path: "/custom-shopify-app-development/"
 hero: './canadafbm.png'
+site: 'https://canadafbm2020.com/'
 ---
 
 <div class="case-study-title__image">
