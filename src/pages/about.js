@@ -16,31 +16,32 @@ class About extends React.Component {
 	render() {
 		const siteTitle = get(this, 'props.data.site.siteMetadata.title')
 		const clients = [
-			{ name: "Borrowell", type: "Finance", link: "https://www.borrowell.com" },
 			{ name: "WWF", type: "Charity, Animals", link: "http://www.wwf.ca/" },
-			{ name: "MSF", type: "Charity", link: "http://www.msf.ca/" },
-			{ name: "Diageo", type: "Alcohol", link: "https://www.diageo.com/" },
-			{ name: "Northstar", type: "Market Research", link: "http://www.northstarhub.com/" },
-			{ name: "TD bank", type: "Finance", link: "https://www.td.com/" },
-			{ name: "Canada Learning Code", type: "Charity, Tech, Education", link: "https://www.canadalearningcode.ca/" },
 			{ name: "Shopify", type: "e-commerce", link: "https://www.shopify.com" },
+			{ name: "Grayes", type: "Fashion, Retail", link: "https://grayes.com/" },
+			{ name: "Dr Roebuck's", type: "Beauty, Retail", link: "https://drroebucks.com/" },
+			{ name: "Frankfurt Book Market", type: "publishing", link: "https://canadafbm2020.com/" },
+			{ name: "Diageo", type: "Alcohol", link: "https://www.diageo.com/" },
+			{ name: "Synqrinus", type: "Market Research", link: "http://synqrinus.com/" },
+			{ name: "Supermilk", type: "Research, Environment", link: "http://supermilk.studio/" },
+			{ name: "TD bank", type: "Finance", link: "https://www.td.com/" },
+			{ name: "Canada Learning Code", type: "Charity, Tech", link: "https://www.canadalearningcode.ca/" },
+			{ name: "Doctors without boarders", type: "Charity", link: "http://www.msf.ca/" },
+			{ name: "Northstar", type: "Market Research", link: "http://www.northstarhub.com/" },
+			{ name: "Borrowell", type: "Finance", link: "https://www.borrowell.com" },
 			{ name: "Hackeryou", type: "tech, education", link: "http://hackeryou.com/" },
-			{ name: "Triumph Capital Limited", type: "Finacne", link: "http://hackeryou.com/" },
-			{ name: "Synqrinus", type: "Market Research", link: "http://hackeryou.com/" },
-			{ name: "DT Print Solutions", type: "printing", link: "http://hackeryou.com/" },
-			{ name: "James Signs", type: "Printing", link: "http://hackeryou.com/" },
-			{ name: "CAIS Schools", type: "education", link: "http://hackeryou.com/" },
-			{ name: "Carolinean Canada", type: "Charity, Environment", link: "http://hackeryou.com/" },
-			{ name: "Crossey Engineering", type: "Engineering", link: "http://hackeryou.com/" },
-			{ name: "Frankfurt Book Market", type: "publishing", link: "http://hackeryou.com/" },
-			{ name: "Grayes", type: "Clothing Retail", link: "http://hackeryou.com/" },
-			{ name: "Linkitz", type: "Tech, education", link: "http://hackeryou.com/" },
-			{ name: "Dr Roebuck's", type: "Beauty, Retail", link: "http://hackeryou.com/" },
-			{ name: "Village Mommy", type: "Social", link: "http://hackeryou.com/" },
-			{ name: "Learnography", type: "Education", link: "http://hackeryou.com/" },
-			{ name: "I Love Yoga", type: "Health & Wellness", link: "http://hackeryou.com/" },
-			{ name: "Supermilk", type: "Research, Environment", link: "http://hackeryou.com/" },
-			{ name: "Runningdive", type: "Retail", link: "http://hackeryou.com/" }
+			{ name: "Runningdive", type: "Retail", link: "https://runningdive.myshopify.com/" },
+			{ name: "Triumph Capital Limited", type: "Finance", link: "http://www.triumphant.ca/" },
+			{ name: "DT Print Solutions", type: "printing, retail", link: "https://www.dtprintsolutions.com/" },
+			{ name: "Admiral Road", type: "retail", link: "https://admiralroad.com/" },
+			{ name: "CAIS Schools", type: "education", link: "https://www.cais.ca/" },
+			{ name: "Carolinean Canada", type: "Charity, Environment", link: "https://caroliniancanada.ca/" },
+			{ name: "James Signs", type: "Printing", link: "http://jamessigns.com/" },
+			{ name: "Crossey Engineering", type: "Engineering", link: "http://www.cel.ca/" },
+			{ name: "Linkitz", type: "Tech, education", link: "http://www.linkitz.com/" },
+			{ name: "Village Mommy", type: "Social", link: "http://www.villagemommy.com/" },
+			{ name: "Learnography", type: "Education", link: "https://learnography.ca/" },
+			{ name: "I Live Yoga", type: "Health & Wellness", link: "https://iliveyoga.com/" }
 
 		]
 		return (
@@ -98,16 +99,14 @@ class About extends React.Component {
 						> */}
 							<img className="about-image" src={about_image} alt=""/>
 						{/* </Parallax> */}
-						<h2 className="primary-title">about us</h2>
+						<h2 className="primary-title about">about us</h2>
 						<div className="services">
 							<h3 className="secondary-title">services</h3>
 							<ul className="service-list">
-								<li>Shopify</li>
+								<li>Application Development</li>
 								<li>Ecommerce</li>
-								<li>Ruby on Rails</li>
-								<li>Back-End</li>
-								<li>Front-End</li>
-								<li>UX</li>
+								<li>Shopify</li>
+								<li>UX / UI</li>
 								<li>Art Direction</li>
 								<li>Visual Design</li>
 							</ul>
@@ -147,8 +146,8 @@ class About extends React.Component {
 						</ul>
 						<h3 className="secondary-title">our team</h3>
 						<div className="our-team">
-							<p>Up at Five comprises of Trudy MacNabb & Jordan Deutsch. They are up at five, have their second coffee at noon, and are in bed by nine.</p>
-							<p>We build accessible web applications that provide solutions to real problems. Our projects are data drive, emphasizing the content, with a focus on user experience.</p>
+							<p> Our team is comprised of developers and designers working to build the web.</p>
+							<p>We build accessible web applications that provide solutions to real problems. Our projects are data driven, emphasizing the content, with a focus on user experience.</p>
 							<div className="profile-photos">
 								<div>
 									<img src={jordan} alt=""/>
@@ -160,7 +159,16 @@ class About extends React.Component {
 								</div>
 							</div>
 						</div>
-						<h2 className="primary-title contact">contact</h2>
+						<div className="methodology">
+							<h3 className="secondary-title">methodology</h3>
+							<h4>Discover</h4>
+							<p>Building out your site or application starts with a conversation. We work with you to help distill your ideas and create a clear project vision. We talk about how you want to enter the market and potential directions for growth. We evaluate the continued engagement with and management of your platform and determine the best approach and technologies.</p>
+							<h4>Design</h4>
+							<p>We focus heavily on interaction design and usability. This is paired with visual aesthetic to create a responsive and intuitive experience.</p>
+							<h4>Develop</h4>
+							<p>We believe strongly in choosing the right tool for the job. Integrating our research and knowledge of your application we select a technical stack that prioritizes functionality and ease of maintenance.</p>
+						</div>
+						<h2 id="contact-area" className="primary-title contact">contact</h2>
 						<div className="contact-area">
 							<p>We love to meet new people, hear novel ideas, and learn about different projects. If you have a project you'd like to discuss or want to grab a coffee we would love to hear from you.</p>
 							<a className="button" href="mailto:hello@upatfive.ca" target="_blank">hello@upatfive.ca</a>

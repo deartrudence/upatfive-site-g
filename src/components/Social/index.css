@@ -19,7 +19,8 @@
 		font-size: 3rem;
 		margin-left: 0;
 		width: unset;
-		transform: translateX(30%);
+		transform: translateX(20%);
 		padding: 8px 0px 8px 28px;
+		margin-top: 50px;
 	}
 }

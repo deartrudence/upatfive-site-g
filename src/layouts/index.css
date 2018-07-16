@@ -63,7 +63,7 @@ ul {
 }
 .wrapper-grey {
 	width: 620px;
-	max-width: 85%;
+	max-width: 88%;
 	margin: 0 auto;
 	background: #F6F4F5;
 	padding: 80px;
@@ -105,6 +105,9 @@ ul {
 	transform: translateX(-100%);
 	width: 57%;
 }
+.primary-title.about {
+	transform: translate(-50%, -770%);
+}
 .secondary-title {
 	color: #1E46F4;
 	position: relative;
@@ -123,6 +126,11 @@ ul {
 	left: 0;
 }
 
+.secondary-title.case-study {
+	margin-top: 105px;
+	margin-bottom: 40px;
+}
+
 @media(max-width: 500px){
 	.wrapper-outer {
 		width: 100%;
@@ -135,7 +143,7 @@ ul {
 		padding-top: 0;
 	}
 	.up-five-title {
-		font-size: 5rem;
+		font-size: 4.2rem;
 		line-height: 6.1rem;
 	}
 	.up-five-subtitle{
@@ -154,6 +162,16 @@ ul {
 		font-size: 1.4rem;
 		line-height: 1.9rem;
 		width: unset;
+		white-space: nowrap;
+	}
+	.primary-title.about {
+		transform: translate(-30%, -310%);
+	}
+	.primary-title.case-studies {
+		transform: translate(-50px,110%);
+	}
+	.primary-title.case-study {
+		transform: translate(-60px,0%);
 	}
 	.primary-title.contact {
 		padding-right: 135px;
@@ -248,13 +266,13 @@ ul {
 		width: 80%;
 	}
 	.case-study-card:nth-child(odd){
-	transform: translateX(30%);
+	transform: translateX(40%);
 	}
 	.case-study-card:nth-child(even){
 		transform: translateX(-30%);
 	}
 	.case-study-card:nth-child(odd) h3{
- transform: translateY(-100%) translateX(-60%);
+ transform: translateY(-100%) translateX(-80%);
 	}
 	.case-study-card:nth-child(even) h3{
 	transform: translateY(-100%) translateX(70%);

@@ -94,7 +94,7 @@ class SiteIndex extends React.Component {
               <Parallax
                 className="box2-outer"
                 offsetYMax={"300"}
-                offsetYMin={"-200"}
+                offsetYMin={"0"}
                 slowerScrollRate
                 tag="figure"
               >
@@ -106,6 +106,15 @@ class SiteIndex extends React.Component {
           <div className="wrapper-grey">
             <h1 className="up-five-title">Up At Five</h1>
             <p className="up-five-subtitle main-page">A digital studio focused on data-driven web applications</p>
+            <div className="methodology">
+              <h3 className="secondary-title">methodology</h3>
+              <h4>Discover</h4>
+              <p>Building out your site or application starts with a conversation. We work with you to help distill your ideas and create a clear project vision. We talk about how you want to enter the market and potential directions for growth. We evaluate the continued engagement with and management of your platform and determine the best approach and technologies.</p>
+              <h4>Design</h4>
+              <p>We focus heavily on interaction design and usability. This is paired with visual aesthetic to create a responsive and intuitive experience.</p>
+              <h4>Develop</h4>
+              <p>We believe strongly in choosing the right tool for the job. Integrating our research and knowledge of your application we select a technical stack that prioritizes functionality and ease of maintenance.</p>
+            </div>
             <h3 className="secondary-title">selected clients</h3>
 
             <div className="client-grid">
@@ -117,15 +126,7 @@ class SiteIndex extends React.Component {
               }
             </div>
             <Link className="view-clients" to="/about#all-clients">View All Clients</Link>
-            <div className="methodology">
-              <h3 className="secondary-title">methodology</h3>
-              <h4>Lorem Ipsum Subtitle</h4>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sagittis sapien sed risus lacinia, ut volutpat nisi accumsan. In lacus mi, dignissim quis nulla a, tincidunt interdum lorem. </p>
-              <h4>Lorem Ipsum Subtitle</h4>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sagittis sapien sed risus lacinia, ut volutpat nisi accumsan. In lacus mi, dignissim quis nulla a, tincidunt interdum lorem. </p>
-              <h4>Lorem Ipsum Subtitle</h4>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sagittis sapien sed risus lacinia, ut volutpat nisi accumsan. In lacus mi, dignissim quis nulla a, tincidunt interdum lorem. </p>
-            </div>
+            
               <Social />
           </div>
         </div>

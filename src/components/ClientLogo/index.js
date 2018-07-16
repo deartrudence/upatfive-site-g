@@ -5,9 +5,9 @@ import './index.css'
 class ClientLogo extends React.Component {
 	render() {
 		return (
-			<Link className="client"to={this.props.link}>
+			<a className="client" href={this.props.link} target="_blank">
 				<img src={this.props.logo} alt={this.props.name} />
-			</Link>
+			</a>
 		)
 	}
 }

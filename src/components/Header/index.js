@@ -28,7 +28,7 @@ class Header extends React.Component {
 	render() {
 		return (
 			<div className=" header">
-				<div className="wrapper-outer">
+				<div className="">
 
 					<svg onClick={this.openMenu} width="33px" height="25px" viewBox="0 0 33 25" version="1.1" xmlns="http://www.w3.org/2000/svg" >
 						<title>Menu</title>
@@ -52,7 +52,8 @@ class Header extends React.Component {
 							<li><Link onClick={this.closeMenu} to="/">home</Link></li>
 							<li><Link onClick={this.closeMenu} to="/about">about</Link></li>
 							<li><Link onClick={this.closeMenu} to="/case-studies">case studies</Link></li>
-							<li><Link onClick={this.closeMenu} to="/educational-resources">educational resources</Link></li>
+							<li><a onClick={this.closeMenu} href="http://www.codeshopify.com/" target="_blank">educational resources</a></li>
+							<li><Link onClick={this.closeMenu} to="/about#contact-area">contact us</Link></li>
 						</ul>
 						<img className="menu-logo" src={logo} alt=""/>
 					</div>
