@@ -202,7 +202,7 @@ ul {
 	transform: translateX(-50%);
 }
 .case-study-card:nth-child(even) img {
-	transform: rotateY(180deg);
+	/* transform: rotateY(180deg); */
 }
 .case-study-card:nth-child(odd) h3{
  transform: translateY(-100%) translateX(-70%);

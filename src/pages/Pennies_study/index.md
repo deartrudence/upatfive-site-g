@@ -76,7 +76,7 @@ site: 'https://pennies.bar/'
 ![Pennies](./pennies-shirt-selection.gif)
 
 </div>
-<h3>The Pennie Admin</h3>
+<h3>The Pennies Admin</h3>
 <p>All of the details on the Pennies site can be easily edited, previewed, and updated. New menu items can be added and new products featured without any code making it easy to manage and maintain.</p>
 
 <div class="case-study__image cs-6">

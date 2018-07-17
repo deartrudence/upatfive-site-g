@@ -15,15 +15,15 @@ class CaseStudies extends React.Component {
 			<div>
 				<Helmet title={get(this, 'props.data.site.siteMetadata.title')} />
 				<div className="flex-wrapper">
-					<Parallax
+					{/* <Parallax
 						className="box-outer_case_horizontal_1"
 						offsetYMax={"200px"}
 						offsetYMin={"0px"}
 						slowerScrollRate
 						tag="figure"
-					>
-						<div className="blue-box_case_horizontal_1"></div>
-					</Parallax>
+					> */}
+						{/* <div className="blue-box_case_horizontal_1"></div> */}
+					{/* </Parallax> */}
 					<Parallax
 						className="box-outer_case_vertical_1"
 						offsetYMax={"200px"}
