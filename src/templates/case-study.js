@@ -5,7 +5,6 @@ import get from 'lodash/get'
 import Social from '../components/Social'
 import { Parallax } from 'react-scroll-parallax'
 
-
 class CaseStudyTemplate extends React.Component {
   render() {
     const post = this.props.data.markdownRemark
